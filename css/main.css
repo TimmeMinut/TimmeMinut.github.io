@@ -55,14 +55,14 @@ h1 {
   font-size: 5rem;
   color: #11111b;
   text-shadow:
-    #EEE0AF 0px 0px 5px,
-    #EEE0AF 0px 0px 10px,
-    #EEE0AF 0px 0px 15px,
-    #EEE0AF 0px 0px 20px,
-    #F9AE7D 0px 0px 30px,
-    #F9AE7D 0px 0px 40px,
-    #F38BA8 0px 0px 50px,
-    #F38BA8 0px 0px 75px;
+    #C8A6E2 0px 0px 5px,
+    #C8A6E2 0px 0px 10px,
+    #C8A6E2 0px 0px 15px,
+    #C8A6E2 0px 0px 20px,
+    #C8A6E2 0px 0px 30px,
+    #C8A6E2 0px 0px 40px,
+    #C8A6E2 0px 0px 50px,
+    #C8A6E2 0px 0px 75px;
 }
 
 h2 {
@@ -160,9 +160,8 @@ nav li {
 }
 
 
-
 nav li:nth-child(1) {
-  background-color: #C8A6E2;
+  background-color: #F38BA8;
 }
 
 nav li:nth-child(2) {

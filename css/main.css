@@ -2,10 +2,12 @@
   font-family: "Food Chicken";
   src: url("fonts/Food Chicken.otf");
 }
+
 @font-face {
   font-family: "Archivo Black";
   src: url("fonts/ArchivoBlack-Regular.ttf");
 }
+
 @font-face {
   font-family: "Ubuntu";
   src: url("fonts/UBUNTU-REGULAR.TTF");
@@ -21,6 +23,30 @@
 /* orange: #F9AE7D */
 /* yellow?: #EEE0AF */
 /* red/pink: #F38BA8 */
+
+
+/* Light effect for header */
+.text-container {
+  display: inline-block;
+  position: relative;
+}
+
+#shadow-text {
+  color: #11111b;
+  position: relative;
+  z-index: 1;
+}
+
+#shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #CDD6F41a;
+  pointer-events: none;
+}
+
+
+
 
 
 /* General */
@@ -66,7 +92,7 @@ h1 {
 }
 
 h2 {
-  font: 600 2.4rem/1.5  "Ubuntu";
+  font: 600 2.4rem/1.5 "Ubuntu";
   color: #11111b;
   text-shadow:
     #CDD6F4 0px 0px 5px,
@@ -111,7 +137,7 @@ input {
 a:hover,
 button:hover,
 button:focus {
-  
+
   /* animation: pulsate 2.5s infinite; */
 }
 
@@ -131,7 +157,7 @@ button:focus {
 
 /* Nav / Hamburger menu*/
 nav {
-  font: 600 2.8rem/1.5  "Ubuntu";
+  font: 600 2.8rem/1.5 "Ubuntu";
   border: 0.2rem solid #11111b;
   background-color: #181825;
   display: flex;
@@ -441,4 +467,3 @@ footer {
   border: 0.2rem solid #11111b;
   background-color: #181825;
 }
-

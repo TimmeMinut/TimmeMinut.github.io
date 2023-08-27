@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Title
     const title = document.createElement("h3");
-    title.innerHTML = "Didn't find anything you like? <br> Try searching!";
+    title.innerHTML = "Can't find anything you like? <br> Give it a search!";
     apiSection.appendChild(title);
 
     // Input field

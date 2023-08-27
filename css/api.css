@@ -3,8 +3,8 @@
     text-align: center;
     padding: 2%;
     margin: 10% auto;
-    background-color: #b0ca87;
-    border: 0.2rem solid #2e0014;
+    background-color: #181825;
+    border: 0.2rem solid #11111b;
 }
 
 #api #id {
@@ -25,7 +25,7 @@
 
 #api button {
     font-size: 1.1rem;
-    background-color: #809848;
+    background-color: #F9AE7D;
     display: inline-block;
 }
 
@@ -40,8 +40,8 @@
     width: 90%;
     margin: 3% 1%;
     padding: 2%;
-    background-color: #B5DEAD;
-    border: 0.2rem solid #2e0014;
+    background-color: #1e1e2e;
+    border: 0.2rem solid #11111b;
 }
 
 

@@ -55,14 +55,14 @@ h1 {
   font-size: 5rem;
   color: #11111b;
   text-shadow:
-    #89B4FA 0px 0px 5px,
-    #89B4FA 0px 0px 10px,
-    #89B4FA 0px 0px 15px,
-    #89B4FA 0px 0px 20px,
-    #89B4FA 0px 0px 30px,
-    #89B4FA 0px 0px 40px,
-    #89B4FA 0px 0px 50px,
-    #89B4FA 0px 0px 75px;
+    #EEE0AF 0px 0px 5px,
+    #EEE0AF 0px 0px 10px,
+    #EEE0AF 0px 0px 15px,
+    #EEE0AF 0px 0px 20px,
+    #F9AE7D 0px 0px 30px,
+    #F9AE7D 0px 0px 40px,
+    #F38BA8 0px 0px 50px,
+    #F38BA8 0px 0px 75px;
 }
 
 h2 {
@@ -152,7 +152,6 @@ nav ul {
 }
 
 nav li {
-  background-color: #C8A6E2;
   border: 0.1rem solid #2e0014;
   text-align: center;
   width: 80%;
@@ -160,8 +159,27 @@ nav li {
   margin: 5% 0;
 }
 
-nav li.active {
+
+
+nav li:nth-child(1) {
   background-color: #C8A6E2;
+}
+
+nav li:nth-child(2) {
+  background-color: #89B4FA;
+}
+
+nav li:nth-child(3) {
+  background-color: #F9AE7D;
+}
+
+nav li:nth-child(4) {
+  background-color: #EEE0AF;
+}
+
+
+nav li.active {
+  background-color: #CDD6F4;
 }
 
 nav a {
@@ -260,7 +278,7 @@ td:nth-child(even) {
 }
 
 th {
-  background-color: lightgray;
+  background-color: #11111b;
   font-weight: bold;
 }
 
@@ -270,7 +288,7 @@ td {
 }
 
 tr {
-  border-bottom: 0.1rem solid #E6E5E5;
+  border-bottom: 0.1rem solid #CDD6F4;
 }
 
 tr:last-child {
@@ -353,6 +371,11 @@ tr:last-child {
 }
 
 #about-me h2 {
+  color: #11111b;
+  text-shadow:
+    #C8A6E2 0px 0px 5px,
+    #F38BA8 0px 0px 10px,
+    #89B4FA 0px 0px 15px;
   font-size: 3.6rem;
   margin: 2% 0;
 }
